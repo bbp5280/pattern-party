@@ -2,6 +2,28 @@
   font-family: 'Open Sans', helvetica , sans-serif;
 }
 
+h4{
+  font-size: 1.1em;
+  margin-left: 5%;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: .01em;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  color: #D1D2D3;
+  background-color: #D1D2D3;
+  padding-left: 2%;
+}
+
+img {
+  width: 305px;
+  height: 360px;
+  margin: 1.5em 1.75em 1.75em 1.75em;
+}
+
 .pattern-party-head{
   display: flex;
   align-items: center;
@@ -11,6 +33,7 @@
 
 .pattern-h1{
   color: #F2F2F2;
+  padding-bottom: .25em;
   font-weight: 300;
   font-size: 1.5em;
   margin-left: 5%;
@@ -25,4 +48,95 @@
   font-weight: 600;
   font-size: 1.3em;
   margin-right: 5%;
+}
+
+
+.accordion-tabs-section-head{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  margin-top: 4vh;
+}
+
+.hr-container{
+  width: 75%;
+  margin: 0 5% 0 0;
+}
+
+.tabs-container{
+  margin-top: 2em;
+  display: flex;
+  width: 83%;
+  margin-left: 8%;
+}
+
+.tabs-h2{
+  font-size: 16px;
+}
+
+.tabs {
+  box-sizing: border-box;
+  width: 25%;
+  text-align: center;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid #D1D2D3;
+  border-right: 1px solid white;
+  cursor: default;
+}
+
+.inactive-tabs {
+  font-weight: 300;
+  color: #666666;
+  padding: 1em 1em 1em 1em;
+}
+.active-tab {
+  color: #666666;
+  background-color: #FFFFFF;
+  font-weight: 600;
+  border: 1px solid #D1D2D3;
+  border-bottom: 0;
+  padding: 1em 1em 1em 1em;
+}
+
+
+ .mobile-span{
+  display: none;
+}
+
+.tabs-content-container {
+  margin-left: 8%;
+  box-sizing: border-box;
+  width: 83%;
+  border-left: 1px solid #D1D2D3;
+  border-bottom: 1px solid #D1D2D3;
+  border-right: 1px solid #D1D2D3;
+}
+
+.article-active {
+    display: flex;
+}
+
+.article-inactive {
+  display: none;
+}
+
+.tabs-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-header {
+  font-size: 1.25em;
+  font-weight: 600;
+  padding-top: 1.25em;
+  margin: 1em 1.75em .75em 1em;
+  padding-bottom: .75em;
+  border-bottom: 1px solid #D1D2D3;
+}
+
+.article-p-tag{
+  font-size: 1.25em;
+  font-weight: 300;
+  margin: .5em 1.75em .75em 1em;
 }
