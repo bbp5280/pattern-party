@@ -1,13 +1,8 @@
 
-
 const switchTab = (event) => {
   const clickedTab = $(event.target);
   const articleNumber = event.target.id.slice(4)
   const divToShow = $(`.tab-article-${articleNumber}`)
-
-  console.log(divToShow);
-
-
 
   $('.tabs').removeClass('active-tab');
   $('.tabs').addClass( 'inactive-tabs' );
@@ -16,7 +11,11 @@ const switchTab = (event) => {
   $(event.target).addClass( 'active-tab' );
   divToShow.removeClass('article-inactive')
   divToShow.addClass('article-active')
+}
 
+const openMenu = (event) => {
+  $('.movibe-nav-container').toggleClass('hidden');
 }
 
 $('.tabs').on('click', (event) => switchTab(event));
+$('.header-menue').on('click', (event) => openMenu(event));
